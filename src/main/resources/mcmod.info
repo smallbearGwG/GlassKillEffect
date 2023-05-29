@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "glasskilleffectg",
+    "name": "GlassKillEffect",
+    "description": "",
+    "version": "1.5",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [""],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
