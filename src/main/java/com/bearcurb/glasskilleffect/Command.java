@@ -12,7 +12,7 @@ public class Command extends CommandBase {
 
   private final ModMain instance;
   private String commandName = "glasseffect";
-  private String errorInfo = "Usage: /glasseffect <statu, help, toggle, set, setnick,preview>";
+  private String errorInfo = "Usage: /glasseffect <state, help, toggle, set, setnick,preview>";
 
   public Command(ModMain instance) {
     this.instance = instance;
@@ -41,8 +41,8 @@ public class Command extends CommandBase {
     }
     String option = args[0];
     switch (option) {
-      case "statu":
-        sendMessage(sender, ChatFormatting.RED + "---------------statu---------------");
+      case "state":
+        sendMessage(sender, ChatFormatting.RED + "---------------state---------------");
         sendMessage(sender, ChatFormatting.RED + "modName: " + this.instance.NAME);
         sendMessage(sender, ChatFormatting.RED + "version: " + this.instance.VERSION);
         sendMessage(sender, ChatFormatting.RED + "debug: " + this.instance.DEBUG);
